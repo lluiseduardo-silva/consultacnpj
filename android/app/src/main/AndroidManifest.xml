@@ -1,7 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="br.tospendtime.consultacnpj">
-   <application
-        android:label="consultacnpj"
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:label="Consulta CNPJ"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
